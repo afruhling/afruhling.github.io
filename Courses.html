@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>Teaching</title>
-<link href="mycss.css" rel="stylesheet" type="text/css" media="screen" >
+<link href="mycss.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -10,51 +12,39 @@
   <h1>Ann L. Fruhling, Ph.D. </h1>
  </div>
 
-<div class="topnav">
-<ul>
-  <li><a href="home.html" >Home</a></li>
-  <li><a href="grants.html">Grants & Contracts</a></li>
-  <li><a href="Courses.html">Teaching</a></li>
-  <li><a href="Publication.html">Publications</a></li>
-  <li><a href="Projects.html">Research Projects</a></li>
-  <li><a href="Awards.html">Awards</a></li>
-  <li><a href="About.html">About</a></li>
-  <li><a href="Statpack.html">STATPack™</a></li>
-  <li><a href="Posters.html">Student Research Posters</a></li>
-   <li><div class="dropdown">
-		<button class="dropbtn">CPHI 
-			<i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="https://www.unomaha.edu/college-of-information-science-and-technology/engagement/centers/consortium-for-public-health-informatics/index.php">Consortium for Public Health Informatics</a>
-		</div>
-	  </div></li>
-</ul>
+<div class="topnav" id="myTopnav">
+
+  <a href="home.html" style="margin-left: 20%" >Home</a>
+  <a href="grants.html">Grants & Contracts</a>
+  <a href="Courses.html">Teaching</a>
+  <a href="Publication.html">Publications</a>
+  <a href="Projects.html">Research Projects</a>
+  <a href="Awards.html">Awards</a>
+  <a href="About.html">About</a>
+  <a href="Statpack.html">STATPack™</a>
+  <a href="Posters.html">Student Research Posters</a>
+  <a href="https://www.unomaha.edu/college-of-information-science-and-technology/engagement/centers/consortium-for-public-health-informatics/index.php"><abbr title="Consortium for Public Health Informatics">CPHI</abbr></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h3>Contact</h3>
-      <h4>Ann L. Fruhling, PhD, MBA</h4>
-	  <p class="big">Professor<br/>
-	  Director, <a href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/index.php">School of Interdisciplinary Informatics</a><br/>
-	  <a href="http://www.ist.unomaha.edu/">College of Information Science and Technology</a>&nbsp|&nbsp<a href="https://pki.nebraska.edu/new/pages/contact/maps-directions-parking/">PKI 280A</a><br/>
-	  <a href="http://www.unomaha.edu">University of Nebraska at Omaha</a>&nbsp|&nbsp<a href="http://www.unomaha.edu">unomaha.edu</a><br/>
-	  <br/>
-	  <a href="tel:4025544968">(402)554-4968</a><br/>
-	  <a href="mailto:afruhling@unomaha.edu" target="_top">afruhling@unomaha.edu</a></br></br>
-	  <a href="https://www.unomaha.edu"><img src="images/logo.PNG" height="50%" width="50%" ></a></p>
-    </div>
-    <div class="card">
-      <h3>Comments</h3>
-      <img src="images/img1.jpg" >
-      <p><i>“Don't dream your life, live your dreams."</i></p>
-      </div>
-  </div>
+  
   <div class="rightcolumn">
     <div class="card">
-      <img src="images/AnnTeach.jpg" class="center"/>
+      <img src="images/AnnTeach.jpg" style="max-width:100%" class="center"/>
 	  <p align="middle"><i>In 2016, Dr. Fruhling was honored with the Faculty Award for Outstanding Graduate Mentor.</i></p>
     </div>
     <div class="card">
@@ -93,7 +83,7 @@
 							<b>ITIN 4990</b>  --	ITIN Capstone - new curriculum - new degree</p><br />
     </div>
 	<div class="card">
-      <img src="images/CapstoneClass.png" class="center"/>
+      <img src="images/CapstoneClass.png" style="max-width:100%" class="center"/>
 	  <p align="middle"><i>Dr. Fruhling's 2016 Capstone Graduates</i></p>
     </div>
 	<div class="card">
@@ -160,6 +150,25 @@
 							<p align="justify"><strong>Sandra Vlasnik</strong> - Computer Science Graduate Capstone, Preceptor<br />
     </div>
     
+  </div>
+  <div class="leftcolumn">
+    <div class="card">
+      <h3>Contact</h3>
+      <h4>Ann L. Fruhling, PhD, MBA</h4>
+	  <p class="big">Professor<br/>
+	  Director, <a href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/index.php">School of Interdisciplinary Informatics</a><br/>
+	  <a href="http://www.ist.unomaha.edu/">College of Information Science and Technology</a>&nbsp|&nbsp<a href="https://pki.nebraska.edu/new/pages/contact/maps-directions-parking/">PKI 280A</a><br/>
+	  <a href="http://www.unomaha.edu">University of Nebraska at Omaha</a>&nbsp|&nbsp<a href="http://www.unomaha.edu">unomaha.edu</a><br/>
+	  <br/>
+	  <a href="tel:4025544968">(402)554-4968</a><br/>
+	  <a href="mailto:afruhling@unomaha.edu" target="_top">afruhling@unomaha.edu</a></br></br>
+	  <a href="https://www.unomaha.edu"><img src="images/logo.PNG" height="50%" width="50%" ></a></p>
+    </div>
+    <div class="card">
+      <h3>Comments</h3>
+      <img src="images/img1.jpg" >
+      <p><i>“Don't dream your life, live your dreams."</i></p>
+      </div>
   </div>
 </div>
 
