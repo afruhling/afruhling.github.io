@@ -81,7 +81,7 @@ h2,h3,h4{
 .leftcolumn {   
     float: left;
     width: 40%;
-	padding-left: 325px;
+	padding-left: 14%;
 	color: #606060;
 	
 }
@@ -92,7 +92,7 @@ h2,h3,h4{
     width: 60%;
     background-color: #f1f1f1;
     padding-left: 20px;
-	padding-right:325px;
+	padding-right:14%;
 	color: #606060;
 }
 
@@ -131,6 +131,7 @@ h2,h3,h4{
         padding: 0;
 		flex-direction: column;
     }
+
 }
 
 
@@ -202,8 +203,8 @@ p.big {
     display: none;
 }
 
-/* When the screen is less than 1410 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1410px) {
+/* When the screen is less than 1155 pixels wide, hide all links,. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1155px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -212,7 +213,7 @@ p.big {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1155px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -240,9 +241,15 @@ abbr[title] {
 	text-decoration: none;
 }
 
+.margin {
+    margin-left: 13%;
+}
 
-
-
+@media screen and (max-width: 1410px) {
+   .margin {
+    margin-left: 0%;
+    }
+}
 
 
 
