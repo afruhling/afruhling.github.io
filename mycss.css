@@ -16,7 +16,6 @@ body {
 	font-size: 17.5px;
     padding: 10px;
     background: #f1f1f1;
-	
 }
 
 h2,h3,h4{
@@ -134,9 +133,6 @@ h2,h3,h4{
 
 }
 
-
-
-
 .center {
     display: block;
     margin-left: auto;
@@ -164,7 +160,6 @@ p.big {
     margin: 0;
 	
 }
-
 
 .dropdown-content {
     display: none;
@@ -196,7 +191,7 @@ p.big {
 
 
 
-/*For Mobile view Ha,burger MEnu */
+/*For Mobile view Hamburger Menu */
 
 
 .topnav .icon {
