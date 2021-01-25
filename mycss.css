@@ -19,7 +19,13 @@ body {
 }
 
 h2,h3,h4{
-	font-family: helvetica;
+    font-family: helvetica;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 /* Header/Blog Title */
