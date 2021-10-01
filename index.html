@@ -11,6 +11,24 @@
 html {
   scroll-behavior: smooth;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+	}
+.tooltip.tooltiptext{
+   visibility: hidden;
+   width: 120px;
+   background-color: black;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+	}
+.tooltip:hover .tooltiptext{
+   visibility: visible;
+	}
 </style>
 <body>
 
@@ -27,9 +45,11 @@ html {
   <a href="grants.html">Grants & Contracts</a>
   <a href="Awards.html">Awards</a>
   <a href="About.html">About</a>
-  <a href="Cbiri.html">CBIRI
-	<!--  <p>University of Nebraska Center for Biomedical Informatics Research & Innovation</p>-->
+  <div class="tooltip">
+  	<a href="Cbiri.html">CBIRI
+		<span class="tooltiptext">University of Nebraska Center for Biomedical Informatics Research & Innovation</span>
 	  </a>
+	</div>
   <a href="Statpack.html">STATPack&trade;</a>
   <a href="Reach.html">REaCH</a>
   <a href="Posters.html">Student Research Posters</a>
